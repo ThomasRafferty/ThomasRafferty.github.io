@@ -22,3 +22,10 @@ a:visited {
 a:hover{
   color:grey;
 }
+
+.footer{
+  margin: auto;
+  width: 78px;
+  background: black;
+  padding: 1em;
+}
