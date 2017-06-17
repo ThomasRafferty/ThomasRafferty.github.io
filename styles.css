@@ -3,9 +3,7 @@ body {
 }
 
 .image {
-  transform: translate(-50%, -50%);
-  padding-left: 50%;
-  padding-right: -50%;
+  padding-left: 40%;
 }
 
 table {
@@ -32,5 +30,9 @@ a:hover{
 }
 
 .plant_list{
-  background-image: images/Plant_Potter.jpg;
+  background-image: url(images/Plant_Potter.jpg);
+}
+
+.web_image {
+  background-image: url(https://openclipart.org/download/174186/Pot001.svg);
 }
