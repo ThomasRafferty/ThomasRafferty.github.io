@@ -29,3 +29,7 @@ a:hover{
   background: black;
   padding: 1em;
 }
+
+.plant_list{
+  background-image: images/Plant_Potter.jpg;
+}
