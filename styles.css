@@ -1,3 +1,35 @@
 body {
   background-color: green;
 }
+
+.image {
+  padding-left: 50%;
+  padding-right: -50%;
+}
+
+table {
+  margin: 20%;
+}
+
+a:link {
+  color:blue;
+}
+
+a:visited {
+  color:red;
+}
+
+a:hover{
+  color:grey;
+}
+
+.footer{
+  margin: auto;
+  width: 78px;
+  background: black;
+  padding: 1em;
+}
+
+.plant_list{
+  background-image: images/Plant_Potter.jpg;
+}
