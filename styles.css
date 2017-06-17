@@ -3,6 +3,7 @@ body {
 }
 
 .image {
+  transform: translate(-50%, -50%);
   padding-left: 50%;
   padding-right: -50%;
 }
