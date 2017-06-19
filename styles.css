@@ -3,11 +3,7 @@ body {
 }
 
 .image {
-  padding-left: 40%;
-}
-
-table {
-  margin: 20%;
+  margin: auto;
 }
 
 a:link {
@@ -31,8 +27,5 @@ a:hover{
 
 .plant_list{
   background-image: url(/images/Plant_Potter.jpg);
-}
-
-.web_image {
-  background-image: url(https://openclipart.org/download/174186/Pot001.svg);
+  background-size: cover;
 }
