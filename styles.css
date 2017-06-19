@@ -25,7 +25,7 @@ a:hover{
   padding: 1em;
 }
 
-.plant_list{
+#plant_list{
   background-image: url(/images/Plant_Potter.jpg);
   background-size: cover;
   background-repeat: no-repeat;
