@@ -2,8 +2,12 @@ body {
   background-color: green;
 }
 
-.image {
+#garden_image {
   text-align: center;
+}
+
+.lesson_image {
+  padding-left: 2em;
 }
 
 a:link {
