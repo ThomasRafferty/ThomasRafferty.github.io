@@ -47,3 +47,22 @@ a:hover{
   margin-left: 40%;
   padding-top: 10px;
 }
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: white;
+    font-size: .8em;
+  }
+  .lesson_image {
+    padding-left: 0;
+  }
+  table{
+    font-size: .5em;
+  }
+}
+
+@media screen and (max-width: 550px) and (min-width: 400px) {
+  table{
+    font-size:.7em;
+  }
+}
