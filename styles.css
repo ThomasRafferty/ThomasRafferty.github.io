@@ -2,8 +2,12 @@ body {
   background-color: green;
 }
 
-.image {
-  margin: auto;
+#garden_image {
+  text-align: center;
+}
+
+.lesson_image {
+  padding-left: 2em;
 }
 
 a:link {
@@ -24,9 +28,41 @@ a:hover{
   background: black;
   padding: 1em;
 }
+ h1 {
+  text-align: center;
+ }
 
 #plant_list{
-  background-image: url(/images/Plant_Potter.jpg);
-  background-size: cover;
+  background-position: center;
+  background-image: url(images/Plant_Potter.jpg);
   background-repeat: no-repeat;
+  min-height: 300px;
+  height:650px;
+  font: 20px bolder ;
+  color: white;
+  font-family: cursive;
+}
+
+.plant_type {
+  margin-left: 40%;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: white;
+    font-size: .8em;
+  }
+  .lesson_image {
+    padding-left: 0;
+  }
+  table{
+    font-size: .5em;
+  }
+}
+
+@media screen and (max-width: 550px) and (min-width: 400px) {
+  table{
+    font-size:.7em;
+  }
 }
